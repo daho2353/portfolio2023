@@ -11,8 +11,12 @@ const ResumePage = () => {
       <div className="resume-container">
       <h2 className="resume-header"> Resume </h2>
       <div className="resume-icon-container">
-        <a href={require('../../img/resume.pdf')} download><img src={pdfIcon} className='pdf-icon'/></a>
+        <a href={require('../../img/resumewebdev.pdf')} download><img src={pdfIcon} className='pdf-icon'/></a>
+        <p className="icon-caption"> web dev </p>
+        <a href={require('../../img/resumenetworking.pdf')} download><img src={pdfIcon} className='pdf-icon'/></a>
+        <p className="icon-caption"> networking </p>
         <a href={require('../../img/resume.docx')} download><img src={docxIcon} className='docx-icon'/></a>
+        <p className="icon-caption"> networking (docx) </p>
       </div>
         <div className='education-skills-container'>
           <div className='education-component'>
@@ -24,29 +28,29 @@ const ResumePage = () => {
         <div className='skills-component'> 
             <div className="skills-column-1">
               <ul>
-                <li> Cisco </li>
-                <li> Juniper </li>
+                <li> Cisco, Juniper, Ciena, Nokia </li>
+                <li> OTDR, RFC, and Loop Testing </li>
                 <li> Fortinet </li>
-                <li> Ciena </li>
-                <li> Nokia </li>
+                <li> Layer 1, IP & Ethernet, Transport & Fiber </li>
+                <li> Root Cause Analysis </li>
               </ul> 
             </div>
             <div className="skills-column-2">
             <ul>
                 <li> Graphic Design, Video Editing</li>
-                <li> Front End Web Development </li>
-                <li> Fiber Break Triage and Repair  </li>
-                <li> Layer 1, IP & Ethernet, Transport & Fiber </li>
-                <li> Command Line and GUI Troubleshooting </li>
+                <li> ReactJS, Typescript, HTML/CSS  </li>
+                <li> Python, C++, C#  </li>
+                <li> SQL, Firebase </li>
+                <li> Figma, SASS/LESS, npm, git </li>
               </ul> 
             </div>
             <div className="skills-column-3">
             <ul>
                 <li> Remote Troubleshooting </li>
                 <li> Helpdesk Administration </li>
-                <li> Network Support </li>
-                <li> OTDR, RFC, and Loop Testing </li>
-                <li> Root Cause Analysis </li>
+                <li> Agile/Scrum Methodolgy</li>
+                <li> Customer Service </li>
+                <li> Microsoft Office Experienced </li>
               </ul> 
             </div>
         </div>

@@ -24,23 +24,24 @@ const HomePage = () => {
     <div className='background-container'>
       <div className='page-background'></div>
       <img className="profile-picture" src={profilePicture} alt="profile picture"/>
-      <h2> Damian Howard </h2>
-      <h3> Network Technician and Content Creator </h3>
+      <div className="hero-container"> 
+        <h2 className="hero-header"> Damian Howard </h2>
+        <h3 className="hero-header"> Network/IT Technician, Content Creator, and Web Developer </h3>
+      </div>
       <div className="homepage-container">
         <div className="about-me">
           <h3> About Me </h3>
-          <p> My name is Damian and I am an aspiring network engineer who graduated from the University of Colorado Boulder. I studied for a degree in Technology, Arts and Media with a minor in Computer Science. I have a passion for understanding and repairing network systems as well as many facets of content creation. I have a deep background in web development and graphic design along with a solid foundation of troubleshooting and customer service experiences.  I am committed to leveraging my technical knowledge and creative problem-solving abilities to ensure efficient and secure network operations. </p>
+          <p> My name is Damian and I am an aspiring technician and developer who graduated from the University of Colorado Boulder. I studied for a degree in Technology, Arts and Media with a minor in Computer Science. I have a passion for understanding and repairing network systems as well as many facets of content creation from web development to photo and video editing. I have a deep background in web development and graphic design along with a solid foundation of troubleshooting and customer service experiences.  I am committed to leveraging my technical knowledge and creative problem-solving abilities to ensure I am making a difference with whatever tehcnology I'm working with. </p>
         </div>
         <h4> Contact Me </h4>
         <div className="contact-information">
           <div className="phone-container">
             <img className="phone-icon" src ={phoneIcon} alt="phone icon"/>
-            <p> 720-775-5103 </p>
+            <p> 971-456-2595 </p>
           </div>
           <div className="email-container">
             <img className="email-icon" src ={emailIcon} alt="email icon"/>
             <p className="emails"> damian.howard1998@yahoo.com </p>
-            <p className="emails"> daho2353@colorado.edu </p>
           </div>
           <div className="other-container">
             <div className="icon-container">
