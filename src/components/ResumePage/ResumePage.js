@@ -13,6 +13,8 @@ const ResumePage = () => {
       <div className="resume-icon-container">
         <a href={require('../../img/resumewebdev.pdf')} download><img src={pdfIcon} className='pdf-icon'/></a>
         <p className="icon-caption"> web dev </p>
+        <a href={require('../../img/resumewebdevdocx.docx')} download><img src={docxIcon} className='docx-icon'/></a>
+        <p className="icon-caption"> web dev (docx) </p>
         <a href={require('../../img/resumenetworking.pdf')} download><img src={pdfIcon} className='pdf-icon'/></a>
         <p className="icon-caption"> networking </p>
         <a href={require('../../img/resume.docx')} download><img src={docxIcon} className='docx-icon'/></a>
@@ -37,11 +39,11 @@ const ResumePage = () => {
             </div>
             <div className="skills-column-2">
             <ul>
-                <li> Graphic Design, Video Editing</li>
                 <li> ReactJS, Typescript, HTML/CSS  </li>
+                <li> SQL, Firebase, AWS Services </li>
                 <li> Python, C++, C#  </li>
-                <li> SQL, Firebase </li>
-                <li> Figma, SASS/LESS, npm, git </li>
+                <li> Graphic Design, Video Editing</li>
+                <li> Figma, SASS/LESS, npm, git, v0 </li>
               </ul> 
             </div>
             <div className="skills-column-3">
@@ -58,8 +60,11 @@ const ResumePage = () => {
           <div className="work-container">
             <h2 className='resume-header'> Work Experience </h2>
             <ul>
+              <li className='bolded'> NAVEX - Customer Support Technician </li>
+              <li className='italics'> Remote (Lake Oswego, OR) Feb 2025 - Current </li>
+              <li> Received inbound calls, tickets and chats from customers with inquiries regarding NAVEX’s SaaS applications. Troubleshot application functionality and used SQL queries to verify customer data in a remote trouble ticket environment. Collaborated with team mates to test features and come up with interim solutions to problems customers were having. </li>
               <li className='bolded'> United States Postal Service - PSE Clerk </li>
-              <li className='italics'> Scappoose, Oregon Jan 2024 - Current </li>
+              <li className='italics'> Scappoose, Oregon Jan 2024 - Feb 2025 </li>
               <li> Opened the store each morning without supervision and enhanced customer satisfaction by efficiently sorting, routing, and distributing 1000’s of pieces of mail to appropriate P.O. boxes and route stations within the post office each day.</li>
               <li className='bolded'> Zayo - Network Technician II & III</li>
               <li className='italics'> Remote (Denver, CO) Oct 2021 - Dec 2022 </li>

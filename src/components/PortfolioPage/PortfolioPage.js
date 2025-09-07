@@ -10,6 +10,7 @@ import pico8 from './portfolioimages/penguin.gif';
 import mmlauncher from './portfolioimages/MMLaunch.jpg';
 import misc from './portfolioimages/misc.png';
 import games from './portfolioimages/games.png';
+import howardsFarm from './portfolioimages/HowardsFarm.jpg'
 import './PortfolioPage.css';
 
 const PortfolioPage = () => {
@@ -19,6 +20,13 @@ const PortfolioPage = () => {
             <h1>Portfolio</h1>
             <p id = "portfolio-description"> I have always had a passion for learning new things and for creating novel projects. I have dabbled in many forms of media creation however I specialize in web development. Below are some of the projects which showcase my skills as an engineer, a thinker, and as a developer. </p>
             <div className='portfolio-contents'>
+            <Portfolio
+              header="Howards Farm"
+              imageName={howardsFarm}
+              imagePlacement="right"
+              description="Developed the framework and front end interfaces for the Howards Farm website, the website is ran by my family and is used to sell produce locally and across the globe. The application is built on TypeScript using an Azure deployment on the backend"
+              link="https://www.howardsfarm.org/"
+            />
             <Portfolio
               header="My Old Portfolio"
               imageName={oldPortfolio}
